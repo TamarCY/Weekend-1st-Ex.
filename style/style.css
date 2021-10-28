@@ -33,6 +33,11 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: GothamLight;
+
+}
+
 .page-1{
     background: url('../assets/red-car.jpeg') no-repeat center center/cover;
     height: 100vh;
@@ -115,6 +120,7 @@ a{
 .side-nav{
     margin-top:130px;
     position:fixed;
+    margin-left: 10px;
 }
 .side-nav  li{
     color:#fff;
