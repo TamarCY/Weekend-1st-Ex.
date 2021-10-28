@@ -57,6 +57,7 @@ a{
     font-size: 14px;
     padding: 10px;
     position:relative;
+    padding-top:20px;
     
 }
 
@@ -68,21 +69,28 @@ a{
 }
 
 .header ul li a{
-    padding: 4px 9px;
+    padding: 4px 13px;
 }
+
+.header ul li a:hover{
+    background-color: rgb(109, 106, 106);
+    border-radius: 10px;
+}
+
 
 .logo{
     display: inline-block;
-    width:200px;
-    height: 100px;
-    /* margin-top: 10px;
-    margin-left: 10px; */
+    width:120px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 35px;
+    position:fixed;
 }
 
 .center-nav{ 
     display: inline-block;
     text-align: center;  
-    width:75%;
+    width:100%;
     margin:auto;
     
 
@@ -90,9 +98,61 @@ a{
 
 .right-nav{
     display: inline-block;
+    /* float:right; */
+    position: absolute;
+    right: 20px;
+}
+
+.model h1{
+    color:white;
+    font-family: GothamMedium;
+    font-size: 40px;
+    margin: 100px 0px 8px;
+    text-align: center;
+}
+
+
+.side-nav{
+    margin-top:130px;
+    position:fixed;
+}
+.side-nav  li{
+    color:#fff;
+    list-style: none;
+    font-size: 25px;
+    margin:2px
+
+}
+
+.first-line:hover .first-hidden{
+    visibility: visible;
+}
+
+.model3:hover .model-hid{
+    visibility: visible;
+
+}
+.safety:hover .safe-hid{
+    visibility: visible;
+
+}
+.preformance:hover .pref-hid{
+    visibility: visible;
+
 }
 
 
 
+.hidden{
+        font-size:10px;
+        visibility:hidden;
+        padding-left: 10px;
+}
+
+
+
+/* .side-nav li:first-child{
+     font-weight: bolder;    
+} */
 
 
