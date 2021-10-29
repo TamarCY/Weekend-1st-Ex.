@@ -33,13 +33,18 @@ a{
     text-decoration: none;
 }
 
+.smaller{
+    font-size: 0.9em;
+}
+
 body{
     font-family: GothamLight;
 
 }
 
+
 .page-1{
-    background: url('../assets/red-car.jpeg') no-repeat center center/cover;
+    background: url('../assets/M3-Hero-LHD-US-D.jpeg') no-repeat center center/cover;
     height: 100vh;
     width: 100vw; 
     color:#fff;
@@ -157,78 +162,101 @@ body{
 }
 
 /* footer */
-.model-footer .img{
-    height: 30px;
-    width:58px;
-}
-
-
-.model-footer div{
-    /* border: solid white 1px; */
-}
-
-.model-footer{
-    margin-top: 63vh;
+.cards{
     font-family: GothamMedium;
     font-size: 28px;
-}
-
-.model-footer .content{
-    width:50%;
-    height: 50%;
+    width:35%;
+    height: 80px;
     margin:auto;
+    /* border: solid pink 1px; */
+    margin-top: 565px;
 }
-
-.model-footer .speed{
-    width: 130px;
-    position: relative;
-}
-.model-footer .speed .img {
-    float: left;
-}
-
-
-.model-footer .speed .speed-num{
-    float: right;
-    height: 28px;
-    
-}
-
- footer .smfont{
-    font-family: GothamLight;
-    font-size:12px;
-}
-
- .range{
-     position: absolute;
-     top:40px;
-     left: 30%; 
-}
-
-.mils{
-    width:200px;
-        border: solid white 1px;
-
-}
-
-.cards{
-    width:70%;
-    height: 100px;
-    margin:auto;
-    border: solid pink 1px;
-    margin-top: 550px;
-
-}
-
 
 .card{
     height: 80%;
     width: 25%;
-    border: solid white 1px;
+    /* border: solid white 1px;     */
     float: left;
-
-
 }
+
+.smfont{
+    font-family: GothamLight;
+    font-size:12px;
+    text-align: center;
+    padding:6px;
+}
+
+ .first .img{
+    height:30px;
+    width:58px;
+    float:left;
+}
+
+ 
+.mils, .awd{
+    text-align: center;
+}
+
+
+.order-button{
+    background: none;
+	color: inherit;
+	border: solid #fff 3px;
+	/* padding:px; */
+	cursor: pointer;
+	outline: inherit;
+    height:40px;
+    width:160px;
+    border-radius: 20px;
+    font-family: GothamLight;
+    font-size:12px;
+}
+
+.order-button:hover{
+    background: #fff;
+    font-family: GothamBold;
+    color: black;
+}
+
+
+.arrow{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* footer .smfont{
+    font-family: GothamLight;
+    font-size:12px;
+} */
+
+ /* .range{
+     position: absolute;
+     top:40px;
+     left: 30%; 
+} */
+
+/* .mils{
+    width:200px;
+        border: solid white 1px;
+
+} */
+
+
+
+
+
+
+
 /* .side-nav li:first-child{
      font-weight: bolder;    
 } */
