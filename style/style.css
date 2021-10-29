@@ -42,6 +42,7 @@ body{
     background: url('../assets/red-car.jpeg') no-repeat center center/cover;
     height: 100vh;
     width: 100vw; 
+    color:#fff;
 }
 
 .page-2{
@@ -118,7 +119,7 @@ body{
 
 
 .side-nav{
-    margin-top:130px;
+    margin-top:120px;
     position:fixed;
     margin-left: 10px;
 }
@@ -155,8 +156,79 @@ body{
         padding-left: 10px;
 }
 
+/* footer */
+.model-footer .img{
+    height: 30px;
+    width:58px;
+}
 
 
+.model-footer div{
+    /* border: solid white 1px; */
+}
+
+.model-footer{
+    margin-top: 63vh;
+    font-family: GothamMedium;
+    font-size: 28px;
+}
+
+.model-footer .content{
+    width:50%;
+    height: 50%;
+    margin:auto;
+}
+
+.model-footer .speed{
+    width: 130px;
+    position: relative;
+}
+.model-footer .speed .img {
+    float: left;
+}
+
+
+.model-footer .speed .speed-num{
+    float: right;
+    height: 28px;
+    
+}
+
+ footer .smfont{
+    font-family: GothamLight;
+    font-size:12px;
+}
+
+ .range{
+     position: absolute;
+     top:40px;
+     left: 30%; 
+}
+
+.mils{
+    width:200px;
+        border: solid white 1px;
+
+}
+
+.cards{
+    width:70%;
+    height: 100px;
+    margin:auto;
+    border: solid pink 1px;
+    margin-top: 550px;
+
+}
+
+
+.card{
+    height: 80%;
+    width: 25%;
+    border: solid white 1px;
+    float: left;
+
+
+}
 /* .side-nav li:first-child{
      font-weight: bolder;    
 } */
