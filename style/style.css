@@ -257,6 +257,9 @@ body{
     width: 1300px;
     float: left;
     position: relative;
+    margin-top:80px;
+    margin-right: 80px;
+    width:1355px;
 }
 
 .image-box .text{
@@ -266,7 +269,7 @@ body{
 }
 .line-text-2{
     top: 60px;
-    left:796px;
+    left:829px;
 
 }
 
@@ -277,20 +280,20 @@ body{
 
 .white-dot-1{
     position: absolute;
-    top:517px;
-    left:848px;
+    top:555px;
+    left:879px;
 }
 
 .white-dot-2{
     position: absolute;
     top:240px;
-    left:787px;
+    left:816px;
 }
 
 .white-dot-3{
     position: absolute;
-    top:469px;
-    left:467px;
+    top:474px;
+    left:468px;
 }
 
 
@@ -305,30 +308,28 @@ body{
 }
 
 .line-text-1{
-    height: 182px;
-    top: 684px;
-    left:856px;
+    top: 728px;
+    left:890px;
 }
 
 
 
 .line-text-3{
-    height: 305px;
-    top: 160px;
-    left:479px;
+    top: 162px;
+    left:480px;
 }
 
 
 .black-line-1{
     height: 182px;
-    top: 517px;
-    left:850px;
+    top: 562px;
+    left:881px;
 }
 
 .black-line-2{
     height: 173px;
     top: 70px;
-    left:789px;
+    left:819px;
 }
 
 .black-line-3{
