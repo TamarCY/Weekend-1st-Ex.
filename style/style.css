@@ -25,7 +25,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
 }
 
 
@@ -312,6 +311,61 @@ body{
     padding: 2px;
 }    
 
+.page-2 .bottom-box{
+    margin-top: 204px;
+}
+
+.learn-section{
+    float:left;
+    width:137px;
+}
+.order-section{
+    width:137px;
+    float:left;
+    
+}
+
+
+
+.page-2 .learn-text{
+    cursor: pointer;
+    height:40px;
+    width:160px;
+    font-family: GothamLight;
+    font-size:12px;
+    padding-top:13px;
+    margin-left:50px;
+    
+    
+}
+.page-2 .learn-button{
+    cursor: pointer;
+    float:left;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid #000 3px;
+    font-size: 28px;
+    font-family: GothamLight;
+    
+}
+
+.learn-button:hover, .order-button:hover{ 
+    background: rgb(8, 8, 8);
+    font-family: GothamBold;
+    color: #fff;
+    font-family: GothamLight;
+
+}
+
+.page-2 .order-button{
+    width:140px;
+    height: 40px;
+    border: solid #000 3px;
+    margin-left: 15px;
+
+}
 
 /* .page-2 .right-side{
     width:78%;
