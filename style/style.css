@@ -196,6 +196,12 @@ body{
     float:left;
 }
 
+/* .first .img{
+    height:30px;
+    width:58px;
+    float:left;
+} */
+
  
 .mils, .awd{
     text-align: center;
@@ -339,21 +345,7 @@ body{
     
 }
 
-/* .page-3 .banner-image{
-    height: 640px;
-    background-image: url("//tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop"
-    );
-    background-position: center 
-} */
 
-.page-3 .banner-image img{
-    overflow:onset;
-    width: 100%;
-}
-
-.page-3 .lower{
-    height: 200px;
-}
 
 
 
@@ -399,8 +391,42 @@ body{
 
 }
 
+.page-3 .banner-image{
+    height: 640px;
+    background-image: url("//tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop"
+    );
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .page-3 .cards{
     color: #fff;
+    margin-top: 0;
+    position:absolute;
+    top: 77%;
+    left:24%;
+    width:57%;
+}
+
+.page-3 .card{
+    width:30%
+}
+
+.page-3 .first .smfont{
+    text-align: center;
+}
+
+.page-3 .first .speed-num{
+    position:relative;
+    left:92px;
+    ;
+}
+
+.page-3 .first .img{
+    position:relative;
+    left:94px;
+    
 }
 
