@@ -467,3 +467,38 @@ body{
     font-family: GothamMedium;
 
 }
+
+.page-3 .learn-text{
+    cursor: pointer;
+    height:40px;
+    width:160px;
+    font-family: GothamLight;
+    font-size:12px;
+    padding-top:13px;
+    margin-left:50px;
+    
+    
+}
+.page-3 .learn-button{
+    cursor: pointer;
+    float:left;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid #000 3px;
+    font-size: 28px;
+    font-family: GothamLight;
+    
+}
+
+
+
+.page-3 .order-button{
+    width:140px;
+    height: 40px;
+    border: solid #000 3px;
+    margin-left: 15px;
+
+}
+
