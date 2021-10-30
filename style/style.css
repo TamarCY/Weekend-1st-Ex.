@@ -48,20 +48,21 @@ body{
     height: 100vh;
     width: 100vw; 
     color:#fff;
-    display: none;
+    /* display: none; */
 }
 
 .page-2{
-    /* background: url('../assets/red-car.jpeg') no-repeat center center/cover; */
     height: 100vh;
     width: 100vw; 
     background-color: #f5f5f5;
+    /* display: none; */
+
 
 
 }
 
 .page-3{
-    background: url('../assets/red-car.jpeg') no-repeat center center/cover;
+    /* background: url('../assets/lhd-performance-hero-mobile.jpeg') no-repeat center center/cover; */
     height: 100vh;
     width: 100vw; 
 }
@@ -234,7 +235,8 @@ body{
     float:right;
     z-index: 1000;
     left:97.7%;
-    top:2%;
+    /* top:2%; */
+    top:4%;
 }
 
 .page-2-arrow i{
@@ -337,6 +339,24 @@ body{
     
 }
 
+/* .page-3 .banner-image{
+    height: 640px;
+    background-image: url("//tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop"
+    );
+    background-position: center 
+} */
+
+.page-3 .banner-image img{
+    overflow:onset;
+    width: 100%;
+}
+
+.page-3 .lower{
+    height: 200px;
+}
+
+
+
 
 
 .page-2 .learn-text{
@@ -379,66 +399,8 @@ body{
 
 }
 
-/* .page-2 .right-side{
-    width:78%;
-    height:100vh;
-    float:right; 
-    
+
+.page-3 .cards{
+    color: #fff;
 }
-
-.page-2 .bg-img{
-    height: 91%;
-    width: 1400px;
-    margin-right: 290px;
-    margin-top: 3%;
-    background: url("/assets/model_3_safety_hero.png") no-repeat center center/cover;
-    border:2px solid black;
-    z-index: 10;
-}
-
-
-
-.page-2 .left-side{
-    background-color: #fff;
-    width:400px;
-    height: 100%;
-    float:left;
-} */
-
-
-
-
-
-
-
-
-
-
- /* footer .smfont{
-    font-family: GothamLight;
-    font-size:12px;
-} */
-
- /* .range{
-     position: absolute;
-     top:40px;
-     left: 30%; 
-} */
-
-/* .mils{
-    width:200px;
-        border: solid white 1px;
-
-} */
-
-
-
-
-
-
-
-/* .side-nav li:first-child{
-     font-weight: bolder;    
-} */
-
 
